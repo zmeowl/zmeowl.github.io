@@ -62,14 +62,13 @@ transform: scale(1.03);
 }
 .categories{
     display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       align-items: center;
       gap: 25px;
       padding: 40px;
-      max-width: 1750px;
-      margin: 0 auto;
-      
-
+      max-width: 1500px;
+      margin: auto;
+    
 }
 .categories iframe{
     width: 100%;
